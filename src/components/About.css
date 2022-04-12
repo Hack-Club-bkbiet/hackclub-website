@@ -1,0 +1,49 @@
+.about {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.about__heading {
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 36px;
+    color: #420202;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.about__para {
+    margin:30px 0 80px 0;
+    color: #01192e;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 80px;
+    max-width: 900px;
+}
+
+.about__image {
+    width: 450px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 900px){
+    .about__image{
+        display: none;
+    }
+
+    .about__heading, .about__para {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .about__heading {
+        font-size: 32px;
+    }
+
+    .about__para {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}

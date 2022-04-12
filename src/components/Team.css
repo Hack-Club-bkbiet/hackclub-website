@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.team {
+    /* background-color: #fff7fd; */
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team h1 {
+    font-size: 40px;
+    color: #270909;
+    margin-bottom: 50px;
+
+}
+
+.team__member {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__name {
+    margin-top: 20px;
+}
+
+.team__position {
+    margin-top: 10px;
+}

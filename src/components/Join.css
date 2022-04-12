@@ -1,0 +1,52 @@
+.join {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    background-image: url("../assests/images/joinBackground.jpg");
+    background-size: cover;
+}
+
+.join > h2 {
+    font-size: 32px;
+    margin-top: 30px;
+    color: #05494e;
+}
+
+.join > h1 {
+    font-size: 40px;
+    margin: 30px auto;
+    color: #05494e;
+}
+
+.join > p {
+    font-size: 22px;
+    margin-top: 40px;
+    color: #363636;
+}
+
+.join > a > button {
+    margin: 40px auto 30px auto;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #00ffaab9, #10d9e0ea);
+    font-size: 16px;
+    font-family: cursive;
+    border: 0.5px groove #2b90e2;
+}
+
+@media only screen and (max-width: 600px){
+    .join > h2 {
+        font-size: 26px;
+    }
+
+    .join > h1 {
+        font-size: 32px;
+    }
+
+    .join > p {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

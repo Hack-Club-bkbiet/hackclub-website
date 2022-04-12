@@ -1,0 +1,14 @@
+.sponcers {
+    height: 300px;
+    background-color: #fff5f0a8;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    width: 98%;
+    margin: auto;
+}
+
+.sponcers__h1 {
+    font-size: 32px;
+    margin-top: 50px;
+}
